@@ -1,4 +1,16 @@
-.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
 __pycache__/
+*.py[cod]
 .venv/
-*.pyc
+venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+~$*.xlsx
+.~*.xlsx
+
+# 不要把教师答案放入学生仓库
+*teacher_demo*.ipynb
+*teacher_reference*.ipynb
