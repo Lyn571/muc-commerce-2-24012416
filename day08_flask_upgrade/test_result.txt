@@ -1,0 +1,12 @@
+Day08 Flask API automated test result
+=====================================
+Command: python -m unittest discover -s tests -v
+
+test_category_filter_returns_only_fashion ... ok
+test_empty_question_returns_unified_400_json ... ok
+test_health_returns_200_json ... ok
+test_metrics_requires_login ... ok
+test_metrics_returns_four_serializable_cards ... ok
+
+Ran 5 tests
+OK
