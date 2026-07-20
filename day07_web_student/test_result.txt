@@ -1,0 +1,12 @@
+Day07 Flask automated test result
+=================================
+Command: python -m unittest discover -s tests -v
+
+test_api_ask_returns_data_backed_json ... ok
+test_authenticated_dashboard_returns_200 ... ok
+test_category_filter_and_download ... ok
+test_correct_login_redirects_to_dashboard ... ok
+test_unauthenticated_dashboard_is_blocked ... ok
+
+Ran 5 tests
+OK
